@@ -1,0 +1,16 @@
+---
+title: "Vim, swapping words via text objects"
+last_modified_at: 2019-12-09T16:20:02-05:00
+categories:
+  - Blog
+tags:
+  - Vim
+  - Text Objects
+---
+<p>Swapping two words is a good exercise in Vim and its commands, including the <em>text objects</em>.</p>
+<p>In this article I will try to solve two possible scenarios for the exchange of position of two words <strong>without using any changes to the basic Vim settings</strong>.</p>
+<h2 id="first-scenario">First scenario</h2>
+<h3 id="two-words-followed-by-other-words-or-almost-a-space.">Two words followed by other words or almost a space.</h3>
+<p><strong>The example:</strong></p>
+<pre><code>  TWO ONE THREE</code></pre>
+<p>In this scenario you can use the same <em>text object</em> solution from both the first and second word but followed by different commands.</p>
